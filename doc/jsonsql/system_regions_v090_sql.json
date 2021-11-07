@@ -130,9 +130,9 @@
         "command": [
           "regionid varchar(64)",
           "regiontype char(1)",
-          "xntile smallint",
-          "yntile smallint",
-          "PRIMARY KEY (regionid,xntile,yntile)"
+          "xtile smallint",
+          "ytile smallint",
+          "PRIMARY KEY (regionid,xtile,ytile)"
         ]
       }
     },
@@ -147,9 +147,9 @@
         "command": [
           "regionid varchar(64)",
           "regiontype char(1)",
-          "xstile smallint",
-          "ystile smallint",
-          "PRIMARY KEY (regionid,xstile,ystile)"
+          "xtile smallint",
+          "ytile smallint",
+          "PRIMARY KEY (regionid,xtile,ytile)"
         ]
       }
     },
@@ -164,9 +164,9 @@
         "command": [
           "regionid varchar(64)",
           "regiontype char(1)",
-          "xttile smallint",
-          "yttile smallint",
-          "PRIMARY KEY (regionid,xttile,yttile)"
+          "xtile smallint",
+          "ytile smallint",
+          "PRIMARY KEY (regionid,xtile,ytile)"
         ]
       }
     }
